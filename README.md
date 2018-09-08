@@ -5,7 +5,7 @@ How to use git in terminal
 git init
 
 #add file to commit
-git add [filename] 
+$git add [filename] 
 
 #add all files in folder for commit
 git add *
