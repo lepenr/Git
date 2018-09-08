@@ -16,7 +16,9 @@ git remote add [name of origin] [html link to rep]
 —commit
 git push [origin name] [branch name]
 
+
 —New branch, create and checkout in to new brench
 git checkout -b rl
+
 
 
