@@ -2,7 +2,7 @@
 How to use git in terminal
 
 —git init
-git init
+#git init
 
 —add file to commit
 git add [filename] 
