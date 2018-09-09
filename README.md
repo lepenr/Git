@@ -25,7 +25,8 @@ git remote add [name of origin] [html link to rep]
 
 commit
 ```shell
-git commit -m "first commit"
+git commit -a -m "commit message"
+git commit -m "commit message"
 ```
 
 push
