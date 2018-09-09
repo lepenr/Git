@@ -22,6 +22,12 @@ need to add remote origin
 ```shell
 git remote add [name of origin] [html link to rep]
 ```
+
+commit
+```shell
+git commit -m "first commit"
+```
+
 push
 ```shell
 git push [origin name] [branch name]
