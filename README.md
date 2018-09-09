@@ -38,6 +38,11 @@ New branch, create and checkout in to new brench
 git checkout -b rl
 ```
 
+#REACT
 
+create emtpy react app 
+```shell
+create-react-app 02-react-app
+```
 
 
