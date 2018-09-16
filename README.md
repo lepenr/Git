@@ -47,3 +47,14 @@ create-react-app 02-react-app
 ```
 
 
+If you have any files that are not tracked by Git (e.g. uploaded user content), these files will not be affected.
+
+I think this is the right way:
+```shell
+git fetch --all
+```
+Then, you have two options:
+```shell
+git reset --hard origin/master
+```
+
