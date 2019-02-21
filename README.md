@@ -39,6 +39,15 @@ New branch, create and checkout in to new brench
 git checkout -b rl
 ```
 
+Create a new branch:
+```shell
+git checkout -b feature_branch_name
+Edit, add and commit your files.
+Push your branch to the remote repository:
+git push -u origin feature_branch_name
+```
+
+
 #REACT
 
 create emtpy react app 
