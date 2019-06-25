@@ -33,6 +33,10 @@ push
 ```shell
 git push [origin name] [branch name]
 ```
+pull
+```shell
+git pull origin master
+```
 
 New branch, create and checkout in to new brench
 ```shell
