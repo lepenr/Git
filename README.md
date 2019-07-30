@@ -1,6 +1,11 @@
 # Git
 How to use git in terminal
 
+cheat sheet 
+```shell
+https://www.theodinproject.com/courses/web-development-101/lessons/git-basics
+```
+
 git init
 ```shell
 git init
