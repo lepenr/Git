@@ -1,9 +1,10 @@
 # Git
 How to use git in terminal
 
-cheat sheet 
+cheat sheet wnd wf
 ```shell
 https://www.theodinproject.com/courses/web-development-101/lessons/git-basics
+https://www.theodinproject.com/courses/web-development-101/lessons/practicing-git-basics
 ```
 
 git init
