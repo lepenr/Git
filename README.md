@@ -77,3 +77,11 @@ Then, you have two options:
 git reset --hard origin/master
 ```
 
+Update NODE, NPM
+
+```shell
+1 npm install -g n
+2 npm cache clean -f
+3 sudo n stable
+4 sudo npm update -g
+```
