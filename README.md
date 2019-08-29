@@ -85,3 +85,66 @@ Update NODE, NPM
 3 sudo n stable
 4 sudo npm update -g
 ```
+
+
+
+Ako generovat atributy z objectu
+
+Data
+```shell
+[
+ {
+   "postcode": "AB1",
+   "name": "Aberdeen",
+   "ppms": "2408,42",
+   "ppsf": "223,75",
+   "price_first_buyer": "949,6",
+   "ppfp": "17206375",
+   "ppb": "122838,75",
+   "pppb": "2013,75"
+ },
+ {
+   "postcode": "AB2",
+   "name": "Aberdeen",
+   "ppms": "2408,42",
+   "ppsf": "223,75",
+   "price_first_buyer": "949,6",
+   "ppfp": "17206375",
+   "ppb": "122838,75",
+   "pppb": "2013,75"
+ },
+ {
+   "postcode": "AB3",
+   "name": "Aberdeen",
+   "ppms": "2408,42",
+   "ppsf": "223,75",
+   "price_first_buyer": "949,6",
+   "ppfp": "17206375",
+   "ppb": "122838,75",
+   "pppb": "2013,75"
+ }]
+ ```
+Import dat
+
+```shell
+const data = require('../assets/data/properties.json');
+ ```
+
+V render metode 
+```shell
+
+let resulttest = [];
+
+ for (var i in data)
+    resulttest.push([i, data[i]]);
+
+
+{resulttest.map((item, i) => item.map((item2, j) =>
+
+                        <OutputHouse key={j} x={item2.name} number={item2.ppsf} unit={(this.getUnitCode(this.state.unit))} height={"auto"} width={"90"} ></OutputHouse>
+
+
+                    ))}
+ ```
+
+
