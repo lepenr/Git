@@ -140,11 +140,9 @@ let resulttest = [];
 
 
 {resulttest.map((item, i) => item.map((item2, j) =>
+ <OutputHouse key={j} x={item2.name} number={item2.ppsf} unit={(this.getUnitCode(this.state.unit))} height={"auto"} width={"90"} ></OutputHouse>
 
-                        <OutputHouse key={j} x={item2.name} number={item2.ppsf} unit={(this.getUnitCode(this.state.unit))} height={"auto"} width={"90"} ></OutputHouse>
-
-
-                    ))}
+))}
  ```
 
 
