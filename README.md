@@ -57,6 +57,16 @@ Push your branch to the remote repository:
 git push -u origin feature_branch_name
 ```
 
+#GIT Y
+
+
+```shell
+git push
+
+git push -u origin feat/mission-page
+
+git checkout -b feat/mission-page__aims
+```
 
 #REACT
 
