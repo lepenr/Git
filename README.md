@@ -80,7 +80,10 @@ git checkout -b feat/mission-page__aims
 7. git push
 
 ```
-
+#GIT wrong
+```shell
+git stash
+```
 
 
 
