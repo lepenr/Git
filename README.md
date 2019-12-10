@@ -68,6 +68,22 @@ git push -u origin feat/mission-page
 git checkout -b feat/mission-page__aims
 ```
 
+#GIT wrong
+```shell
+
+1. Checkout bracnh witch was not commit correctly
+2. Create/commit branch again with fake change -"comment" 
+3. Push
+4. Checkout "master"  
+5. git merge branch
+6. resolve + git add. commit
+7. git push
+
+```
+
+
+
+
 #REACT
 
 create emtpy react app 
