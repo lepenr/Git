@@ -68,7 +68,7 @@ git push -u origin feat/mission-page
 git checkout -b feat/mission-page__aims
 ```
 
-#GIT wrong
+#GIT
 ```shell
 
 1. Checkout bracnh witch was not commit correctly
@@ -80,7 +80,7 @@ git checkout -b feat/mission-page__aims
 7. git push
 
 ```
-#GIT wrong
+#GIT
 ```shell
 git stash
 ```
